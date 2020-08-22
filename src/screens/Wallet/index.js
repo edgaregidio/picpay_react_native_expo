@@ -61,7 +61,7 @@ export default function Wallet() {
 
           <BalanceContainer>
             <Value>
-              R$ <Bold>{isVisible ? '0,00' : '-----'}</Bold>
+              R$ <Bold>{isVisible ? '325,14' : '-----'}</Bold>
             </Value>
 
             <EyeButtom onPress={handleToggleVisibility}>
@@ -88,7 +88,7 @@ export default function Wallet() {
       </Header>
 
       <UseBalance>
-        <UseBalanceTitle>Usar Saldo ao pagar</UseBalanceTitle>
+        <UseBalanceTitle>Usar saldo ao pagar</UseBalanceTitle>
 
         <Switch
           value={useBalance}
