@@ -70,3 +70,19 @@ export const ActionLabel = styled.Text`
   font-size: 16px;
   margin-left: 10px;
 `;
+
+export const UseBalance = styled.View`
+  background: #1c1c1e;
+  height: 60px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 16px;
+  align-items: center;
+`;
+
+export const UseBalanceTitle = styled.Text`
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+`;
+

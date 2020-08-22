@@ -1,4 +1,5 @@
 import React from 'react'
+import { Switch } from 'react-native'
 import { Feather, MaterialCommunityIcons, FontAwesome } from '@expo/vector-icons';
 
 import {
@@ -14,6 +15,8 @@ import {
   Actions,
   Action,
   ActionLabel,
+  UseBalance,
+UseBalanceTitle,
 } from './styles'
 
 export default function Wallet() {
@@ -51,6 +54,11 @@ export default function Wallet() {
 
         </HedaerContainer>
       </Header>
+
+      <UseBalance>
+        <UseBalanceTitle>Usar Saldo ao pagar</UseBalanceTitle>
+        <Switch />
+      </UseBalance>
     </Wrapper>
   );
 }
