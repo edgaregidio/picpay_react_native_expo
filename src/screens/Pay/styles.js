@@ -6,8 +6,11 @@ export const Wrapper = styled.SafeAreaView`
 `;
 
 export const Header = styled.View`
+  height: 50px;
+  padding: 0 16px;
   flex-direction: row;
-  padding: 5px 0;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export const CardSearch = styled.TextInput`

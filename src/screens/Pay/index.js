@@ -20,7 +20,10 @@ export default function Pay() {
 
           <TextInput
             placeholderTextColor="#FFF"
+            onChangeText={text => onChangeText(text)}
+            value={value}
           />
+          
           <NavigationTop />
 
         </CardSearch>

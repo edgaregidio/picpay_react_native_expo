@@ -1,8 +1,7 @@
 import React from 'react';
-import { Text } from 'react-native';
 
-// import { Container } from './styles';
+import { TextTest } from './styles';
 
-export default function Main() {
-  return <Text>Teste</Text>;
+export default function Store() {
+  return <TextTest>Teste</TextTest>;
 }

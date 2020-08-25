@@ -7,7 +7,6 @@ import StoreScreen from './screens/Store'
 
 const Tab = createMaterialTopTabNavigator();
 
-
 export default function NavigationTop() {
   return (
     <Tab.Navigator
@@ -15,10 +14,12 @@ export default function NavigationTop() {
       tabBarOptions={{
         activeTintColor: '#e91e63',
         inactiveTintColor: '#92929c',
-        labelStyle: { fontSize: 12 },
+        labelStyle: {
+          fontSize: 12
+        },
         style: {
-          backgroundColor: 'powderblue',
-          borderTopColor: 'rgba(255, 255, 255, 0.2)'
+          backgroundColor: '#FFF',
+          borderTopColor: 'rgba(255, 255, 255, 0.2)',
         },
       }}
     >
