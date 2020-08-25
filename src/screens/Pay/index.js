@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { TextInput } from 'react-native'
-
 import { MaterialCommunityIcons, FontAwesome } from '@expo/vector-icons';
 
-import { Wrapper, Header, CardSearch, ContainerIcon } from './styles'
+
+import { Wrapper, Header, CardSearch } from './styles'
+import NavigationTop from './NavigationTop'
 
 export default function Pay() {
 
@@ -14,13 +15,14 @@ export default function Pay() {
       <Header>
         <MaterialCommunityIcons name="qrcode-scan" size={30} color="#10c86e" />
         <CardSearch>
-          {/* <ContainerIcon> */}
+
           <FontAwesome name="search" size={30} color="#FFF" />
-          {/* </ContainerIcon> */}
+
           <TextInput
-            
             placeholderTextColor="#FFF"
           />
+          <NavigationTop />
+
         </CardSearch>
       </Header>
     </Wrapper>

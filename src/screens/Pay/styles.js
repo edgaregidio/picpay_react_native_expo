@@ -10,10 +10,6 @@ export const Header = styled.View`
   padding: 5px 0;
 `;
 
-export const ContainerIcon = styled.View`
-  flex-direction: row;
-`;
-
 export const CardSearch = styled.TextInput`
   background: #192027;
   width: 330px;
