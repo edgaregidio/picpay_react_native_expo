@@ -17,6 +17,7 @@ import {
   ActionLabel,
   UseBalance,
   UseBalanceTitle,
+  Container,
   PaymentMethods,
   PaymentMethodsTitle,
   Card,
@@ -97,35 +98,38 @@ export default function Wallet() {
 
       </UseBalance>
 
-      <PaymentMethods>
-        <PaymentMethodsTitle>Formas de pagamento</PaymentMethodsTitle>
+      <Container>
+        <PaymentMethods>
+          <PaymentMethodsTitle>Formas de pagamento</PaymentMethodsTitle>
 
-        <Card>
+          <Card>
 
-          <CardBody>
-            <CardDetails>
-              <CardTitle>Cadastre o seu Cartão de Crédito</CardTitle>
-              <CardInfo>Cadastre seu cartão de Crédito para poder fazer pagamentos mesmo quando não tiver saldo no seu PicPay</CardInfo>
-            </CardDetails>
+            <CardBody>
+              <CardDetails>
+                <CardTitle>Cadastre o seu Cartão de Crédito</CardTitle>
+                <CardInfo>Cadastre seu cartão de Crédito para poder fazer pagamentos mesmo quando não tiver saldo no seu PicPay</CardInfo>
+              </CardDetails>
 
-            <Img source={creditCard} resizeMode="contain" />
-          </CardBody>
+              <Img source={creditCard} resizeMode="contain" />
+            </CardBody>
 
-          <AddButton>
-            <AntDesign name="pluscircleo" size={30} color="#52e78c" />
-            <AddLabel>
-              Adicionar cartão de crédito
+            <AddButton>
+              <AntDesign name="pluscircleo" size={30} color="#52e78c" />
+              <AddLabel>
+                Adicionar cartão de crédito
             </AddLabel>
-          </AddButton>
+            </AddButton>
 
-        </Card>
+          </Card>
 
-        <UseTicketButton>
-          <FontAwesome5 name="ticket-alt" size={24} color="#52e78c" />
-          <UseTicketLabel>Usar código promocional</UseTicketLabel>
-        </UseTicketButton>
+          <UseTicketButton>
+            <FontAwesome5 name="ticket-alt" size={24} color="#52e78c" />
+            <UseTicketLabel>Usar código promocional</UseTicketLabel>
+          </UseTicketButton>
 
-      </PaymentMethods>
+        </PaymentMethods>
+      </Container>
+
     </Wrapper>
   );
 }

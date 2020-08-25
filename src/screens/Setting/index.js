@@ -3,6 +3,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 import {
   Wrapper,
+  Container,
   Header,
   HedaerContainer,
   HeaderText,
@@ -25,17 +26,19 @@ export default function Setting() {
         </HedaerContainer>
       </Header>
 
-      <CardProfile>
-        <Avatar source={img9}/>
-        <LoginPicPay>@edgar.siqueira.egidio</LoginPicPay>
-        <NamePicPay>Edgar Siqueira Egidio</NamePicPay>
+      <Container>
+        <CardProfile>
+          <Avatar source={img9} />
+          <LoginPicPay>@edgar.siqueira.egidio</LoginPicPay>
+          <NamePicPay>Edgar Siqueira Egidio</NamePicPay>
 
-        <CardViewProfile>
-          <ViewProfile>Ver meu perfil</ViewProfile>
-          <MaterialIcons name="navigate-next" size={28} color="#10c86e" />
-        </CardViewProfile>
+          <CardViewProfile>
+            <ViewProfile>Ver meu perfil</ViewProfile>
+            <MaterialIcons name="navigate-next" size={28} color="#10c86e" />
+          </CardViewProfile>
 
-      </CardProfile>
+        </CardProfile>
+      </Container>
     </Wrapper>
   );
 }

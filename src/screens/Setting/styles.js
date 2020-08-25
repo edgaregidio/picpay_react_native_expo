@@ -4,6 +4,7 @@ export const Wrapper = styled.View`
   background: #000;
   flex: 1;
 `;
+export const Container = styled.ScrollView ``;
 
 export const Header = styled.View`
   background: #39464E;

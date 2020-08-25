@@ -86,6 +86,8 @@ export const UseBalanceTitle = styled.Text`
   font-weight: 500;
 `;
 
+export const Container = styled.ScrollView ``;
+
 export const PaymentMethods = styled.View`
   margin-top: 25px;
   padding: 0 16px;
