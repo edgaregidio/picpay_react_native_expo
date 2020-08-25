@@ -8,7 +8,7 @@ export const Container = styled.ScrollView ``;
 
 export const Header = styled.View`
   background: #39464E;
-  height: 100px;
+  height: 12%;
 `;
 
 export const HedaerContainer = styled.SafeAreaView`

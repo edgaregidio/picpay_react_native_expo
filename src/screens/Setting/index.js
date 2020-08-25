@@ -17,6 +17,8 @@ import {
 
 import img9 from '../../images/09.png'
 
+import MyAccount from '../../components/MyAccount'
+
 export default function Setting() {
   return (
     <Wrapper>
@@ -36,8 +38,10 @@ export default function Setting() {
             <ViewProfile>Ver meu perfil</ViewProfile>
             <MaterialIcons name="navigate-next" size={28} color="#10c86e" />
           </CardViewProfile>
-
         </CardProfile>
+
+        <MyAccount />
+        
       </Container>
     </Wrapper>
   );
