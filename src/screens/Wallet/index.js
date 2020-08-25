@@ -61,7 +61,7 @@ export default function Wallet() {
 
           <BalanceContainer>
             <Value>
-              R$ <Bold>{isVisible ? '325,14' : '-----'}</Bold>
+              R$ <Bold>{isVisible ? '32,500.14' : '-----'}</Bold>
             </Value>
 
             <EyeButtom onPress={handleToggleVisibility}>
